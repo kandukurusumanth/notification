@@ -1,3 +1,4 @@
 module.exports={
-    server:require('./server')
+    server:require('./server'),
+    email:require('./email-sender')
 }

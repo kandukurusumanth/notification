@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "Sumanth@12390",
-    "database": "project",
+    "database": "notification",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
