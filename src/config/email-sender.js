@@ -10,14 +10,14 @@ const transporter = nodemailer.createTransport({
     },
 });
 
-async function main(Gmail) {
-   console.log(Gmail);
+async function main(Gmail,recipent) {
+   
     const info = await transporter.sendMail({
         from: Gmail,
-        to: "sumanthkgs15050071@gmail.com", 
+        to:recipent, 
 
         subject: "no reply", 
-        text: "your booking has been done ",
+        text: "your booking has been done but through rabbitmq now with the server",
         // html body
     });
     console.log(info);
