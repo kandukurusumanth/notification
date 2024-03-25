@@ -23,7 +23,7 @@ module.exports = {
         unique:true
       },
       statuscode: {
-        type:DataTypes.ENUM,
+        type:Sequelize.ENUM,
         values:['SUCCESS','PENDING','FAILURE'],
         defaultValue:'PENDING',
         allowNull:false

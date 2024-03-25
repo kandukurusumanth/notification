@@ -1,3 +1,4 @@
 module.exports={
-    check:require('./infocontroller')
+    check:require('./infocontroller'),
+    createticket:require('./ticketcontroller')
 }

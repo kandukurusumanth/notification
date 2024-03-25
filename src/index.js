@@ -10,6 +10,6 @@ const api = require('./router');
 app.use('/api',api)
 app.listen(server.PORT, async ()=>{
     console.log(`listening to portnumber:${server.PORT}`);
-    email.main();
+    // email.main();
     
 })
